@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Chris Lawrence</title>
+  <meta name="description" content="About author Chris Lawrence." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <strong>Chris Lawrence</strong>
+        <span>Author • Fiction</span>
+      </a>
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="books.html">Books</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="h1" style="font-size:34px;">About</h1>
+    <div class="card">
+      <p class="lede" style="margin-top:0;">
+        I write fiction that leans into big questions — what people do when the rules vanish, what love looks like under pressure,
+        and how ordinary lives cope with extraordinary events.
+      </p>
+
+      <div class="hr"></div>
+
+      <h2 class="section-title">What I write</h2>
+      <ul>
+        <li><strong>Survival fiction</strong> with practical realism and emotional stakes.</li>
+        <li><strong>Thrillers</strong> where consequences matter and the past has teeth.</li>
+        <li><strong>Character-first stories</strong> — the plot hits harder when you care.</li>
+      </ul>
+
+      <h2 class="section-title">What I’m working on</h2>
+      <p class="small">
+        I’m developing ongoing projects including <em>Ross Awakens</em> and <em>Final Revenge</em>.
+        I also love building worlds with believable detail — places, routines, and the small practicalities that make a story feel real.
+      </p>
+
+      <div class="actions" style="margin-top:16px;">
+        <a class="btn primary" href="books.html">See the books</a>
+        <a class="btn" href="contact.html">Contact me</a>
+      </div>
+    </div>
+
+    <div class="hr"></div>
+    <footer class="footer">
+      © <span id="y"></span> Chris Lawrence
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

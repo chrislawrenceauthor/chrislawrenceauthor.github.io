@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Books — Chris Lawrence</title>
+  <meta name="description" content="Books by Chris Lawrence, including Ross Awakens and Final Revenge." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <strong>Chris Lawrence</strong>
+        <span>Author • Fiction</span>
+      </a>
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="books.html" aria-current="page">Books</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="h1" style="font-size:34px;">Books</h1>
+    <p class="lede">Here are my current titles. Replace the Amazon links with your real ones when ready.</p>
+
+    <section class="grid">
+      <article class="card book">
+        <div class="badge">Post-apocalyptic survival</div>
+        <h3>Ross Awakens</h3>
+        <p>A world goes still. A man wakes alone. Survival becomes the easy part — understanding is harder.</p>
+        <div class="actions">
+          <!-- Replace the # with your real Amazon link -->
+          <a class="btn primary" href="#" target="_blank" rel="noopener">Buy on Amazon</a>
+          <a class="btn" href="contact.html">Ask a question</a>
+        </div>
+      </article>
+
+      <article class="card book">
+        <div class="badge">Thriller / revenge</div>
+        <h3>Final Revenge</h3>
+        <p>A darker, sharper story where choices echo — and the past never stays buried for long.</p>
+        <div class="actions">
+          <!-- Replace the # with your real Amazon link -->
+          <a class="btn primary" href="#" target="_blank" rel="noopener">Buy on Amazon</a>
+          <a class="btn" href="contact.html">Ask a question</a>
+        </div>
+      </article>
+
+      <article class="card book">
+        <div class="badge">Coming soon</div>
+        <h3>In progress</h3>
+        <p>Want me to add a “Work in Progress” section and newsletter signup? I can wire that in too.</p>
+        <div class="actions">
+          <a class="btn primary" href="about.html">What I’m writing</a>
+          <a class="btn" href="contact.html">Get in touch</a>
+        </div>
+      </article>
+    </section>
+
+    <div class="hr"></div>
+    <footer class="footer">
+      © <span id="y"></span> Chris Lawrence • <a href="index.html">Home</a>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Chris Lawrence</title>
+  <meta name="description" content="Contact Chris Lawrence." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">
+        <strong>Chris Lawrence</strong>
+        <span>Author • Fiction</span>
+      </a>
+      <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="books.html">Books</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="h1" style="font-size:34px;">Contact</h1>
+    <p class="lede">For reader messages, press, or general enquiries.</p>
+
+    <div class="grid">
+      <div class="card book">
+        <div class="badge">Email</div>
+        <h3>Send a message</h3>
+        <p>Click below to email me. (Replace the email address with yours.)</p>
+        <div class="actions">
+          <!-- Replace example@email.com with your real email -->
+          <a class="btn primary" href="mailto:example@email.com">Email me</a>
+        </div>
+      </div>
+
+      <div class="card book">
+        <div class="badge">Social</div>
+        <h3>Follow</h3>
+        <p>Add your socials here when ready.</p>
+        <div class="actions">
+          <!-- Replace # with your real links -->
+          <a class="btn" href="#" target="_blank" rel="noopener">Facebook</a>
+          <a class="btn" href="#" target="_blank" rel="noopener">Instagram</a>
+          <a class="btn" href="#" target="_blank" rel="noopener">X / Twitter</a>
+        </div>
+      </div>
+
+      <div class="card book">
+        <div class="badge">Updates</div>
+        <h3>Newsletter</h3>
+        <p>If you ever want a newsletter, I can add a free signup using Mailchimp/Beehiiv/Substack.</p>
+        <div class="actions">
+          <a class="btn primary" href="about.html">See what I’m writing</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hr"></div>
+    <footer class="footer">
+      © <span id="y"></span> Chris Lawrence
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
